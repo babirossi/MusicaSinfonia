@@ -1,0 +1,298 @@
+.header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home a{
+    text-decoration: none;
+    color: #F8C404;
+    padding: 10px;
+}
+/*Main*/
+.escolha{
+    display: flex;
+    background-color: black;
+    margin: 10px 0px 30px 0px;
+    padding: 15px;
+    gap:70px;
+}
+.escolha p {
+    color: #F8C404;
+    width: 100px;
+    margin: 0px 20px 10px 10px;
+}
+.texto{
+    display: grid;
+
+}
+.icone{
+    width: 200px;
+    height: 230px;
+    border-radius: 15px;
+    border: none;
+    background-color: lightgoldenrodyellow;
+}
+
+.saiba{
+    background-color: #F8C404;
+    border: none;
+    width: 100px;
+    height: 50px;
+}
+
+.sobreNos{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    align-items: center;
+    gap: 30px;
+}
+
+.fundoescola{
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0px 30px 0px 10px;
+}
+.fundoescola img{
+    width: 400px;
+    height: 400px;
+}
+
+.textoSobre{
+    background-color: black;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0px 30px 0px 50px;
+}
+.textoSobre h2{
+    color: white;
+    text-align: center;
+}
+.textoSobre p{
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 200px;
+}
+
+.nossosProfi{
+    background-color: black;
+}
+
+.nossosProfi h2{
+    color: #F8C404;
+    margin: 15px;
+    margin: 15px;
+}
+.professores{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    gap: 220px;
+}
+.professores p{
+    color: white;
+    width: 500px;
+}
+.professores img{
+    width: 130px;
+    margin: 40px;
+    gap: 30px;
+}
+.setinha img{
+    width: 40px;
+    text-align: center;
+}
+
+.desconto{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 220px;
+    align-items: center;
+}
+.desconto img{
+    width: 550px;
+}
+
+.promo p{
+    color: #F8C404;
+    text-align: center;
+
+}
+.promo button{
+    background-color: #F8C404;
+    border: none;
+    border-radius: 20px;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    font-size: larger;
+}
+
+.aulas{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.aulas p{
+    color: #F8C404;
+}
+.videos{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    padding: 10px;
+}
+.aulas button{
+    background-color: #F8C404;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.dicaNoti{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 230px;
+    margin: 15px;
+}
+
+.dica{
+    background-color: black;
+    color: white;
+    width: 400px;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.noticia{
+    background-color: black;
+    padding: 24px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.caixabranca{
+    background-color: white;
+    width:400px;
+}
+
+.caixabranca img{
+    width: 90px;
+}
+
+.fotter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+}
+.logoDois{
+    width: 100px;
+}
+
+.contato {
+    width: 30px;
+    padding: 20px;
+}
+
+@media {
+    .conteiner{
+        width: 320px;
+    }
+}
+@media (max-width: 326px){
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .escolha{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .professores{
+        display: grid;
+        gap: 0;
+        width: 150px;
+    }
+    .professores p{
+        width: 250px;
+        text-align: center;
+        margin: 28px;
+    }
+    .sobreNos{
+        display: grid;
+        margin: 20px;
+    }
+    .textoSobre p{
+        width: 200px;
+        height: 350px;
+        margin: 18px;
+    }
+    .textoSobre{
+        padding: 10px;
+        margin: 0px 30px 0px 10px
+    }
+    .fundoescola img{
+        width: 200px;
+        height: 200px;
+    }
+    .marta img{
+        width: 230px;
+    }
+    .desconto img{
+        width: 250px;
+    }
+    .desconto{
+        display: block;
+    }
+    .desconto button{
+        width: 200px;
+    }
+    .promo{
+        text-align: center;
+    }
+    .videos{
+        display: block;
+    }
+    .videos img{
+        width: 200px;
+    }
+    .dicaNoti{
+        display: grid;
+        gap: 0px;
+    }
+    .dicanoti h2{
+        text-align: center;
+        margin: 10px;
+
+    }
+    .dica{
+        width: 200px;
+        margin: 15px;
+    }
+    .noticia{
+        width: 200px;
+        margin: 20px;
+    }
+    .caixabranca{
+        width: 200px;
+
+    }
+    .fotter{
+        display: grid;
+    }
+    .contato{
+        width: 20px;
+        padding: 20px;
+    }
+}
